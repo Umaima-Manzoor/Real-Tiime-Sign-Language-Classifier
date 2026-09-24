@@ -1,15 +1,13 @@
-# Real-Time Sign Language Classifier
+<div align="center">
 
-<p align="center">
-  <img src="assets/hero.svg" alt="Real-Time Sign Language Classifier">
-</p>
+<h1 align="center">🤟 Real-Time Sign Language Classifier</h1>
 
-<p align="center">
+<img src="assets/hero.svg" alt="Real-Time Sign Language Classifier">
+
+<p>
   <strong>Real-time hand-gesture recognition using computer vision and deep learning.</strong><br>
   Recognises A–Z and 0–9 gestures from a webcam, converts confirmed predictions into text, and optionally speaks the recognised characters.
 </p>
-
-<p align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.12+-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.13.0-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
@@ -18,27 +16,25 @@
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10.7-0097A7?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Academic%20Prototype-3B82F6?style=flat-square)
 
+<p>
+  <a href="#00b--demo">🎥 Demo</a> ·
+  <a href="#02--what-it-does">✅ What it does</a> ·
+  <a href="#04--dataset">🗂️ Dataset</a> ·
+  <a href="#05--model">🧠 Model</a> ·
+  <a href="#09--installation">⚙️ Install</a> ·
+  <a href="#10--usage">▶️ Usage</a> ·
+  <a href="#13--limitations">⚠️ Limitations</a> ·
+  <a href="#14--future-improvements">🛣️ Roadmap</a>
 </p>
 
-<p align="center">
-  <a href="#00b--demo">Demo</a> ·
-  <a href="#02--what-it-does">What it does</a> ·
-  <a href="#04--dataset">Dataset</a> ·
-  <a href="#05--model">Model</a> ·
-  <a href="#09--installation">Install</a> ·
-  <a href="#10--usage">Usage</a> ·
-  <a href="#13--limitations">Limitations</a> ·
-  <a href="#14--future-improvements">Roadmap</a>
-</p>
+<sub>If this project is useful to you, consider starring the repo — it helps others find it. ⭐</sub>
 
-<p align="center">
-  <sub>If this project is useful to you, consider starring the repo — it helps others find it. ⭐</sub>
-</p>
+</div>
 
 ---
 
 <a name="00--quick-start"></a>
-## `00` — Quick Start
+## `00` — 🚀 Quick Start
 
 ```bash
 git clone https://github.com/Umaima-Manzoor/Real-Time-Sign-Language-Classifier.git
@@ -47,12 +43,12 @@ pip install -r requirements.txt
 python scripts/recognition.py
 ```
 
-Requires a working webcam and a trained model in `models/` (a pretrained one is included — see [`11` — Saved Models](#11--saved-models)).
+Requires a working webcam and a trained model in `models/` (a pretrained one is included — see [`11 - Saved Models`](#11--saved-models)).
 
 ---
 
 <a name="00b--demo"></a>
-## Demo
+## 🎥 Demo
 
 <p align="center">
   <img src="assets/demo.gif" alt="Live demo — the classifier recognising gestures and building a sentence in real time" width="640">
@@ -65,7 +61,7 @@ Requires a working webcam and a trained model in `models/` (a pretrained one is 
 ---
 
 <a name="01--overview"></a>
-## `01` — Overview
+## `01` — 🔍 Overview
 
 **Real-Time Sign Language Classifier** is a computer vision and deep learning project for recognising hand gestures representing **26 letters and 10 digits**.
 
@@ -88,7 +84,7 @@ The system combines webcam-based hand detection, image preprocessing, a custom c
 ---
 
 <a name="02--what-it-does"></a>
-## `02` — What It Does
+## `02` — ✅ What It Does
 
 - Captures and organises hand-gesture images through a webcam
 - Trains a custom CNN using the collected dataset
@@ -104,7 +100,7 @@ The system combines webcam-based hand detection, image preprocessing, a custom c
 ---
 
 <a name="03--recognition-pipeline"></a>
-## `03` — Recognition Pipeline
+## `03` — 🔄 Recognition Pipeline
 
 <p align="center">
   <img src="assets/pipeline.svg" alt="Recognition pipeline">
@@ -117,7 +113,7 @@ The live pipeline is:
 ---
 
 <a name="04--dataset"></a>
-## `04` — Dataset
+## `04` — 🗂️ Dataset
 
 The project uses a custom webcam-collected dataset containing:
 
@@ -163,7 +159,7 @@ Clears collected images from the class directories when a fresh dataset needs to
 ---
 
 <a name="05--model"></a>
-## `05` — Model
+## `05` — 🧠 Model
 
 <p align="center">
   <img src="assets/model.svg" alt="CNN architecture">
@@ -211,7 +207,7 @@ models/training_history.png
 ---
 
 <a name="06--real-time-inference"></a>
-## `06` — Real-Time Inference
+## `06` — ⚡ Real-Time Inference
 
 The recognition script applies several safeguards before a gesture becomes a character.
 
@@ -228,7 +224,7 @@ This staged approach is what keeps the output stable — a single noisy frame ca
 ---
 
 <a name="07--controls"></a>
-## `07` — Controls
+## `07` — ⌨️ Controls
 
 | Key | Action |
 |---|---|
@@ -243,7 +239,7 @@ Text-to-speech is handled with `pyttsx3` and runs in a background thread.
 ---
 
 <a name="08--project-structure"></a>
-## `08` — Project Structure
+## `08` — 📁 Project Structure
 
 ```text
 Real-Time-Sign-Language-Classifier/
@@ -284,7 +280,7 @@ Real-Time-Sign-Language-Classifier/
 ---
 
 <a name="09--installation"></a>
-## `09` — Installation
+## `09` — ⚙️ Installation
 
 ### Requirements
 
@@ -324,7 +320,7 @@ pip install -r requirements.txt
 ---
 
 <a name="10--usage"></a>
-## `10` — Usage
+## `10` — ▶️ Usage
 
 ### Check the dataset
 
@@ -357,7 +353,7 @@ The application opens the webcam and begins detecting and classifying hand gestu
 ---
 
 <a name="11--saved-models"></a>
-## `11` — Saved Models
+## `11` — 💾 Saved Models
 
 The repository contains models in both HDF5 and Keras formats:
 
@@ -387,7 +383,7 @@ models/class_mapping.pkl
 ---
 
 <a name="12--documentation"></a>
-## `12` — Documentation
+## `12` — 📄 Documentation
 
 The repository contains the project's original academic materials:
 
@@ -401,7 +397,7 @@ The repository contains the project's original academic materials:
 ---
 
 <a name="13--limitations"></a>
-## `13` — Limitations
+## `13` — ⚠️ Limitations
 
 This project is a **gesture-classification prototype**, not a complete natural-language sign-language translation system.
 
@@ -417,7 +413,7 @@ Current limitations include:
 ---
 
 <a name="14--future-improvements"></a>
-## `14` — Future Improvements
+## `14` — 🛣️ Future Improvements
 
 Possible extensions include:
 
@@ -435,7 +431,7 @@ Possible extensions include:
 ---
 
 <a name="15--project-status"></a>
-## `15` — Project Status
+## `15` — ✅ Project Status
 
 **Academic project — functional prototype**
 
