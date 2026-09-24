@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 420">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop offset="0" stop-color="#0B1120"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1400" height="420" rx="24" fill="url(#bg)"/>
+  <g opacity=".16" stroke="#334155">
+    <path d="M0 70H1400M0 140H1400M0 210H1400M0 280H1400M0 350H1400"/>
+    <path d="M100 0V420M200 0V420M300 0V420M400 0V420M500 0V420M600 0V420M700 0V420M800 0V420M900 0V420M1000 0V420M1100 0V420M1200 0V420M1300 0V420"/>
+  </g>
+  <rect x="44" y="42" width="1312" height="336" rx="18" fill="none" stroke="#1E293B"/>
+  <text x="88" y="112" fill="#22D3EE" font-family="monospace" font-size="18" letter-spacing="4">COMPUTER VISION • DEEP LEARNING • REAL-TIME INFERENCE</text>
+  <text x="88" y="180" fill="#E5E7EB" font-family="monospace" font-size="50" font-weight="700">REAL-TIME</text>
+  <text x="88" y="235" fill="#E5E7EB" font-family="monospace" font-size="50" font-weight="700">SIGN LANGUAGE CLASSIFIER</text>
+  <text x="90" y="285" fill="#94A3B8" font-family="monospace" font-size="18">36 gesture classes  /  7,200 images  /  webcam recognition</text>
+  <g transform="translate(950 95)">
+    <rect x="0" y="0" width="300" height="190" rx="18" fill="#0F172A" stroke="#334155"/>
+    <rect x="22" y="22" width="256" height="146" rx="10" fill="none" stroke="#3B82F6" opacity=".65"/>
+    <path d="M112 128 C92 112 83 91 90 73 C94 61 105 61 110 71 L117 91 L117 45 C117 34 130 34 130 45 L130 83 L136 37 C137 27 150 29 149 40 L145 83 L152 46 C154 36 167 38 165 49 L158 89 L166 60 C169 51 181 54 179 65 L170 104 C165 125 151 139 132 143 Z" fill="none" stroke="#22D3EE" stroke-width="4" filter="url(#glow)"/>
+    <circle cx="236" cy="44" r="7" fill="#22C55E"/>
+    <text x="22" y="184" fill="#64748B" font-family="monospace" font-size="12">LIVE CAMERA / HAND TRACKING</text>
+  </g>
+  <path d="M88 326H1312" stroke="url(#line)" stroke-width="2"/>
+  <circle cx="88" cy="326" r="5" fill="#22D3EE"/>
+  <circle cx="1312" cy="326" r="5" fill="#3B82F6"/>
+</svg>
