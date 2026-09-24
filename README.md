@@ -21,6 +21,7 @@
 </p>
 
 <p align="center">
+  <a href="#00b--demo">Demo</a> ·
   <a href="#02--what-it-does">What it does</a> ·
   <a href="#04--dataset">Dataset</a> ·
   <a href="#05--model">Model</a> ·
@@ -47,6 +48,19 @@ python scripts/recognition.py
 ```
 
 Requires a working webcam and a trained model in `models/` (a pretrained one is included — see [`11` — Saved Models](#11--saved-models)).
+
+---
+
+<a name="00b--demo"></a>
+## Demo
+
+<p align="center">
+  <img src="assets/demo.gif" alt="Live demo — the classifier recognising gestures and building a sentence in real time" width="640">
+</p>
+
+<p align="center">
+  <sub>Live recognition — each confirmed letter is appended to the sentence shown at the bottom of the frame.</sub>
+</p>
 
 ---
 
