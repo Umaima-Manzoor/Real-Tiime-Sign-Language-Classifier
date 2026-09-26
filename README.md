@@ -283,7 +283,7 @@ Real-Time-Sign-Language-Classifier/
 ├── docs/
 │   ├── Real-Time-Sign-Language-Proposal.pdf
 │   └── Real-Time-Sign-Language-Report.pdf
-|
+│
 ├── requirements.txt
 ├── .gitattributes
 ├── .gitignore
@@ -404,12 +404,12 @@ models/class_mapping.pkl
 
 The repository contains the project's original academic materials:
 
-| Resource     | File                           |
-| ------------ | ------------------------------ |
-| Project demo | `AI Project Demo.mp4`          |
-| Presentation | `AI Project Presentation.pptx` |
-| Proposal     | `AI project proposal.pdf`      |
-| Report       | `AI Project Report.pdf`        |
+| Resource     | File                                             |
+| ------------ | ------------------------------------------------ |
+| Project demo | `demo/Real-Time-Sign-Language-Demo.mp4`          |
+| Presentation | `demo/Real-Time-Sign-Language-Presentation.pptx` |
+| Proposal     | `docs/Real-Time-Sign-Language-Proposal.pdf`      |
+| Report       | `docs/Real-Time-Sign-Language-Report.pdf`        |
 
 ---
 
