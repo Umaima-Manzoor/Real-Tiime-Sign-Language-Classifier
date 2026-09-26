@@ -1,0 +1,33 @@
+<svg viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="900" height="220" fill="#ffffff"/>
+  <!-- swatch 1 -->
+  <g transform="translate(30,30)">
+    <rect width="150" height="120" rx="10" fill="#2a3e54"/>
+    <text x="75" y="145" text-anchor="middle" font-size="14" fill="#2a3e54" font-weight="600">Deep Navy</text>
+    <text x="75" y="163" text-anchor="middle" font-size="12" fill="#666">#2A3E54</text>
+  </g>
+  <!-- swatch 2 -->
+  <g transform="translate(210,30)">
+    <rect width="150" height="120" rx="10" fill="#3d5570"/>
+    <text x="75" y="145" text-anchor="middle" font-size="14" fill="#3d5570" font-weight="600">Primary Blue</text>
+    <text x="75" y="163" text-anchor="middle" font-size="12" fill="#666">#3D5570</text>
+  </g>
+  <!-- swatch 3 -->
+  <g transform="translate(390,30)">
+    <rect width="150" height="120" rx="10" fill="#2585a0"/>
+    <text x="75" y="145" text-anchor="middle" font-size="14" fill="#2585a0" font-weight="600">Teal Accent</text>
+    <text x="75" y="163" text-anchor="middle" font-size="12" fill="#666">#2585A0</text>
+  </g>
+  <!-- swatch 4 -->
+  <g transform="translate(570,30)">
+    <rect width="150" height="120" rx="10" fill="#778899"/>
+    <text x="75" y="145" text-anchor="middle" font-size="14" fill="#778899" font-weight="600">Slate Grey</text>
+    <text x="75" y="163" text-anchor="middle" font-size="12" fill="#666">#778899</text>
+  </g>
+  <!-- swatch 5 -->
+  <g transform="translate(750,30)">
+    <rect width="120" height="120" rx="10" fill="#ffffff" stroke="#dcdcdc" stroke-width="2"/>
+    <text x="60" y="145" text-anchor="middle" font-size="14" fill="#2a3e54" font-weight="600">White</text>
+    <text x="60" y="163" text-anchor="middle" font-size="12" fill="#666">#FFFFFF</text>
+  </g>
+</svg>
