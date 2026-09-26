@@ -277,10 +277,13 @@ Real-Time-Sign-Language-Classifier/
 │   ├── recognition.py
 │   └── train_model.py
 │
-├── AI Project Demo.mp4
-├── AI Project Presentation.pptx
-├── AI project proposal.pdf
-├── AI Project Report.pdf
+├── demo/
+│   ├── Real-Time-Sign-Language-Demo.mp4
+│   └── Real-Time-Sign-Language-Presentation.pptx
+├── docs/
+│   ├── Real-Time-Sign-Language-Proposal.pdf
+│   └── Real-Time-Sign-Language-Report.pdf
+|
 ├── requirements.txt
 ├── .gitattributes
 ├── .gitignore
